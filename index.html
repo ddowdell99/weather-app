@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+
+
+</head>
+
+<body>
+
+    <div class="weather-app-container">
+        <div class="input-header">
+            <input type="text" class="search-box" placeholder="Please enter a city...">
+        </div>
+        <div class="main-info">
+            <div class="location">
+                <div class="city">Minneapolis</div>
+                <div class="country">US</div>
+            </div>
+            <div class="weather">
+                <div class="temp">45<span>°F</span></div>
+                <img src="" alt="" class="icon" />
+                <div class="cloud-coverage">Clear</div>
+                <div class="high-low"><span>H:</span>52<span>°</span>&nbsp&nbsp&nbsp<span>L:</span>35<span>°</span>
+                </div>
+            </div>
+        </div>
+        <div class="extra-container">
+            <div class="Humidity">Humidity<span class="humid-perc">36%</span></div>
+            <div class="Feels-Like">Feels Like<span class="feels-like-temp">37.5°F</span></div>
+            <div class="Wind">Wind<span class="wind-mph">18mph</span></div>
+            <div class="visibility">Visibility<span class="visibility-mi">5mi</span></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

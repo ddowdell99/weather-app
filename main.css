@@ -1,0 +1,172 @@
+body {
+    background-image: url('https://source.unsplash.com/1600x900?trees');
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.weather-app-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    min-width: 40%;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.438);
+    border-radius: 50px;
+}
+
+.input-header {
+    display: flex;
+    justify-content: center;
+    padding: 50px 15px 15px;
+
+}
+
+.search-box {
+    width: 100%;
+    max-width: 250px;
+    padding: 15px 15px;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.location .city {
+    font-size: 30px;
+    font-weight: 50;
+}
+
+.weather .temp {
+    font-size: 75px;
+    font-weight: 800;
+}
+
+.weather span {
+    font-weight: 500;
+}
+
+.weather .cloud-coverage{
+    font-size: 20px ;
+}
+
+.weather .high-low {
+    font-size: 20px;
+}
+
+.extra-container {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Humidity Feels-Like"
+      "Wind UV-Index";
+    max-width: 250px;
+    justify-content: center;
+    margin: 15px auto;
+  }
+  
+.Humidity { 
+    grid-area: Humidity;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:right;
+    margin:25px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 12px;
+    color: rgb(65, 65, 65);
+    min-width:140px;
+    min-height: 90px;
+    padding: 5px;
+
+
+ }
+
+.Humidity span {
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+}
+
+  
+.Feels-Like { 
+    grid-area: Feels-Like;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:left;
+    margin:25px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 12px;
+    color: rgb(65, 65, 65);
+    min-width:150px;
+    min-height: 90px;
+    padding: 5px;
+ }
+
+.Feels-Like span {
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+}
+  
+.Wind { 
+    grid-area: Wind; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:right;
+    margin:25px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 12px;
+    color: rgb(65, 65, 65);
+    min-width:150px;
+    min-height: 90px;
+    padding: 5px;
+
+}
+
+.Wind span {
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+}
+  
+.visibility { 
+    grid-area: UV-Index;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:left;
+    margin: 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 12px;
+    color: rgb(65, 65, 65);
+    min-width:150px;
+    min-height: 90px;
+    padding: 5px;
+}
+
+.visibility span {
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+}
+
+  
